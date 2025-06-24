@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Bangles Collection</title>
+    <style>
+      .zoom {
+        transition: transform 0.4s ease-in-out;
+      }
+      .zoom:hover {
+        transform: scale(1.03);
+      }
+    </style>
+  </head>
+
+  <body class="bg-gray-800 py-10">
+    <div class="container mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+          <div class="overflow-hidden">
+            <img src="img.jpg" alt="Vibrant Bangles" class="w-full object-cover zoom" />
+          </div>
+          <div class="p-4 flex-1">
+            <h3 class="text-xl font-bold mb-2">🌈 1. Vibrant Handmade Bangles</h3>
+            <p class="text-gray-600 mb-2">
+              Add a burst of color to your look! 🛍 Style your hands with culture and charm!
+            </p>
+            <div class="text-sm text-gray-700 font-semibold mb-1">Price: $30</div>
+            <div class="text-sm text-gray-500 mb-2">Delivery: 3–5 days</div>
+          </div>
+          <div class="flex items-center justify-end space-x-2 p-4">
+            <button class="text-purple-500 hover:text-gray-700">Cancel</button>
+            <button class="bg-purple-200 hover:bg-purple-300 text-purple-800 px-3 py-1 rounded-lg">Add to Cart</button>
+            <button class="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1 rounded-lg">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+          <div class="overflow-hidden">
+            <img src="img2.jpg" alt="Bridal Bangles" class="w-full object-cover zoom" />
+          </div>
+          <div class="p-4 flex-1">
+            <h3 class="text-xl font-bold mb-2">❤ 2. Classic Red Bridal Bangles</h3>
+            <p class="text-gray-600 mb-2">
+              Make every moment special 💃 Weddings & Celebrations!
+            </p>
+            <div class="text-sm text-gray-700 font-semibold mb-1">Price: $40</div>
+            <div class="text-sm text-gray-500 mb-2">Delivery: 2–4 days</div>
+          </div>
+          <div class="flex items-center justify-end space-x-2 p-4">
+            <button class="text-purple-500 hover:text-purple-700">Cancel</button>
+            <button class="bg-purple-200 hover:bg-purple-300 text-purple-800 px-3 py-1 rounded-lg">Add to Cart</button>
+            <button class="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1 rounded-lg">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg overflow-hidden shadow-md flex flex-col">
+          <div class="overflow-hidden">
+            <img src="img3.jpg" alt="Elegant Bangles" class="w-full object-cover zoom" />
+          </div>
+          <div class="p-4 flex-1">
+            <h3 class="text-xl font-bold mb-2">🤍 3. Elegant White & Golden Bangles</h3>
+            <p class="text-gray-600 mb-2">
+              Subtle. Classy. Timeless. ✨ Must-have for elegant wardrobe!
+            </p>
+            <div class="text-sm text-gray-700 font-semibold mb-1">Price: $35</div>
+            <div class="text-sm text-gray-500 mb-2">Delivery: 4–6 days</div>
+          </div>
+          <div class="flex items-center justify-end space-x-2 p-4">
+            <button class="text-purple-500 hover:text-purple-700">Cancel</button>
+            <button class="bg-purple-200 hover:bg-purple-300 text-purple-800 px-3 py-1 rounded-lg">Add to Cart</button>
+            <button class="bg-purple-600 hover:bg-purple-700 text-white px-3 py-1 rounded-lg">Buy Now</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
